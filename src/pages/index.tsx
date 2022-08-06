@@ -51,6 +51,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   width={192}
                   height={192}
                   objectFit='cover'
+                  className={styles.cover}
                 />
 
                 <div className={styles.episodeDetails}>

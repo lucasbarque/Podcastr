@@ -136,3 +136,11 @@
     }          
   }
 }
+
+
+@media (max-width: 1200px) {
+ .playerContainer {
+  position: absolute;
+  display: none;
+ }
+}

@@ -19,3 +19,22 @@
     text-transform: capitalize;
   }
 }
+
+@media (max-width: 1200px) {
+  .headerContainer {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+
+    span {
+      display: none;
+    }
+
+    p {
+      margin-top: 0.125rem;
+      margin-left: 0;
+      padding: 0;
+      border-left: none;
+    }
+  }
+}

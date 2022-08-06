@@ -59,3 +59,18 @@ h2 {
 bottom {
   cursor: pointer;
 }
+
+::-webkit-scrollbar {
+  width: 6px;    
+}
+::-webkit-scrollbar-thumb {
+  background: #e7e7e7;
+  border-radius: 10px;  
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+   display: none;
+  }
+  
+}

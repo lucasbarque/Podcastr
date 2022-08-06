@@ -2,6 +2,8 @@
   padding: 0 4rem;
   height: calc(100vh - 6.5rem);
   overflow-y: scroll;
+  margin-right: 0.3125rem;
+  margin-top: 0.3125rem;
 
   h2 {
     margin-top: 3rem;
@@ -27,9 +29,13 @@
       align-items: center;
 
       img {
-        width: 6rem;
-        height: 6rem;
+        width: 6rem !important;
+        height: 6rem !important;
         border-radius: 1rem;
+      }
+
+      span {
+        width: max-content !important;
       }
 
       .episodeDetails {
@@ -99,8 +105,8 @@
         transition: filter 0.2s;
 
         img {
-          width: 1.5rem;
-          height: 1.5rem;
+          width: 1.5rem !important;
+          height: 1.5rem !important;
         }
 
         &:hover {
@@ -178,3 +184,36 @@
   }
 
 }
+
+@media (max-width: 1682px) {
+  .latestEpisodes {
+    ul {    
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .homepage {
+    padding: 0 2rem;
+    height: inherit;
+    overflow: inherit;
+
+    h2 {
+      margin-top: 1rem;
+    }
+  }
+
+  .latestEpisodes {
+    ul {
+      li {
+        flex-direction: column;
+
+        button {
+          position: initial;
+        }
+      }
+    }
+  }  
+}
+
