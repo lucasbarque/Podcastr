@@ -1,9 +1,9 @@
 <h1 align="center">
     <img alt="Podcastr" title="Podcastr" src=".github/logo.svg" />
 </h1>
-<h1 align="center">
-    <img alt="Podcastr" title="Podcastr" src=".github/preview.gif" />
-</h1>
+
+<img alt="Podcastr" title="Podcastr" src=".github/preview.gif" />
+
 
 
 ## 💻 Projeto
