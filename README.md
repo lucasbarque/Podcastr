@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="Podcastr" title="Podcastr" src=".github/logo.svg" />
+</h1>
+<h1 align="center">
+    <img alt="Podcastr" title="Podcastr" src=".github/preview.gif" />
+</h1>
 
-## Getting Started
 
-First, run the development server:
+## 💻 Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
+O Podcastr é um app para ouvir podcasts sobre programação.
+
+## 🎨 Layout
+Você pode acessar o Layout pelo Figma atravês desse [link](https://www.figma.com/file/5KchzYko8NeeV0suqrSi6x/Podcastr-(Copy)?node-id=199599%3A1028).
+
+## 🧪 Tecnologias
+
+Este projeto foi desenvolvido com as seguintes tecnologias
+- [Next.js](https://nextjs.org/)
+- [React.js](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+
+## 📋 Funcionalidades
+- [x] Tocar podcast.
+- [x] Quando um podcast acaba, outro começa em seguida.
+- [x] Selecionar apenas um podcast para ouvir.
+- [x] Opção de ir para o próximo podcast.
+- [x] Opção de ir para o anterior podcast.
+- [x] Opção de Loop.
+- [x] Opção para embaralhar.
+
+## 🚀 Como instalar
 ```
+# Clone este repositório.
+# Vá para a pasta podcastr
+$ cd podcastr
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Instale as dependências
+$ npm install
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Execute aplicação
+$ npm run dev
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# O app vai está rodando na porta 3000 - acesse <http://localhost:3000>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+---
 
-## Learn More
+<p>Feito com 💜 by Lucas Barque da Silva</p>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Linkedin Badge](https://img.shields.io/badge/-lucasbarque-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-barque/)](https://www.linkedin.com/in/lucas-barque/)
+[![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=whitelink=mailto:lucasbarquedasilva@hotmail.com)](mailto:lucasbarquedasilva@hotmail.com)
